@@ -1,0 +1,35 @@
+.products {
+  display: flex;
+  flex-direction: row; /*by default row*/
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.title {
+  background: url("../images/title1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  text-align: right;
+}
+
+.super {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sub {
+  color: rgb(158, 158, 158);
+  font-size: 15px;
+}
+
+.route {
+  background-color: rgb(55, 122, 55);
+  width: 8%;
+  height: 30px;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
